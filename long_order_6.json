@@ -1,0 +1,227 @@
+[
+    {
+        "task_name": "yelp",
+        "train_file": "CL_Benchmark_dev/SC/yelp/train.json",
+        "validation_file": "CL_Benchmark_dev/SC/yelp/test.json",
+        "instruction": "What is the sentiment of the following paragraph? Choose one from the option.\n",
+        "options": [
+            "very negative",
+            "negative",
+            "neutral",
+            "positive",
+            "very positive"
+        ],
+        "text_key": "sentence",
+        "label_key": "label",
+        "max_samples": 8000
+    },
+    {
+        "task_name": "amazon",
+        "train_file": "CL_Benchmark_dev/SC/amazon/train.json",
+        "validation_file": "CL_Benchmark_dev/SC/amazon/test.json",
+        "instruction": "What is the sentiment of the following paragraph? Choose one from the option.\n",
+        "options": [
+            "very negative",
+            "negative",
+            "neutral",
+            "positive",
+            "very positive"
+        ],
+        "text_key": "sentence",
+        "label_key": "label",
+        "max_samples": 5000
+    },
+    {
+        "task_name": "mnli",
+        "train_file": "CL_Benchmark_dev/NLI/MNLI/train.json",
+        "validation_file": "CL_Benchmark_dev/NLI/MNLI/test.json",
+        "instruction": "What is the logical relationship between the \"sentence 1\" and the \"sentence 2\"? Choose one from the option.\n",
+        "options": [
+            "neutral",
+            "entailment",
+            "contradiction"
+        ],
+        "text_key": "sentence",
+        "label_key": "label",
+        "max_samples": 20000
+    },
+    {
+        "task_name": "cb",
+        "train_file": "CL_Benchmark_dev/NLI/CB/train.json",
+        "validation_file": "CL_Benchmark_dev/NLI/CB/test.json",
+        "instruction": "What is the logical relationship between the \"sentence 1\" and the \"sentence 2\"? Choose one from the option.\n",
+        "options": [
+            "entailment",
+            "contradiction",
+            "neutral"
+        ],
+        "text_key": "sentence",
+        "label_key": "label",
+        "max_samples": 8000
+    },
+    {
+        "task_name": "copa",
+        "train_file": "CL_Benchmark_dev/COPA/COPA/train.json",
+        "validation_file": "CL_Benchmark_dev/COPA/COPA/test.json",
+        "instruction": "",
+        "options": [
+            "A",
+            "B"
+        ],
+        "text_key": "sentence",
+        "label_key": "label",
+        "max_samples": 4000
+    },
+    {
+        "task_name": "qqp",
+        "train_file": "CL_Benchmark_dev/QQP/QQP/train.json",
+        "validation_file": "CL_Benchmark_dev/QQP/QQP/test.json",
+        "instruction": "Whether the \"first sentence\" and the \"second sentence\" have the same meaning? Choose one from the option.\n",
+        "options": [
+            "False",
+            "True"
+        ],
+        "text_key": "sentence",
+        "label_key": "label",
+        "max_samples": 20000
+    },
+    {
+        "task_name": "rte",
+        "train_file": "CL_Benchmark_dev/NLI/RTE/train.json",
+        "validation_file": "CL_Benchmark_dev/NLI/RTE/test.json",
+        "instruction": "What is the logical relationship between the \"sentence 1\" and the \"sentence 2\"? Choose one from the option.\n",
+        "options": [
+            "contradiction",
+            "entailment"
+        ],
+        "text_key": "sentence",
+        "label_key": "label",
+        "max_samples": 6000
+    },
+    {
+        "task_name": "imdb",
+        "train_file": "CL_Benchmark_dev/SC/IMDB/train.json",
+        "validation_file": "CL_Benchmark_dev/SC/IMDB/test.json",
+        "instruction": "What is the sentiment of the following paragraph? Choose one from the option.\n",
+        "options": [
+            "Good",
+            "Bad"
+        ],
+        "text_key": "sentence",
+        "label_key": "label",
+        "max_samples": 10000
+    },
+    {
+        "task_name": "sst-2",
+        "train_file": "CL_Benchmark_dev/SC/SST-2/train.json",
+        "validation_file": "CL_Benchmark_dev/SC/SST-2/test.json",
+        "instruction": "What is the sentiment of the following paragraph? Choose one from the option.\n",
+        "options": [
+            "Good",
+            "Bad"
+        ],
+        "text_key": "sentence",
+        "label_key": "label",
+        "max_samples": 8000
+    },
+    {
+        "task_name": "dbpedia",
+        "train_file": "CL_Benchmark_dev/TC/dbpedia/train.json",
+        "validation_file": "CL_Benchmark_dev/TC/dbpedia/test.json",
+        "instruction": "What is the topic of the following paragraph? Choose one from the option.\n",
+        "options": [
+            "Company",
+            "Educational Institution",
+            "Artist",
+            "Athlete",
+            "Office Holder",
+            "Mean of Transportation",
+            "Building",
+            "Natural Place",
+            "Village",
+            "Animal",
+            "Plant",
+            "Album",
+            "Film",
+            "Written Work"
+        ],
+        "text_key": "sentence",
+        "label_key": "label",
+        "max_samples": 14000
+    },
+    {
+        "task_name": "agnews",
+        "train_file": "CL_Benchmark_dev/TC/agnews/train.json",
+        "validation_file": "CL_Benchmark_dev/TC/agnews/test.json",
+        "instruction": "What is the topic of the following paragraph? Choose one from the option.\n",
+        "options": [
+            "World",
+            "Sports",
+            "Business",
+            "Science or Technology"
+        ],
+        "text_key": "sentence",
+        "label_key": "label",
+        "max_samples": 4000
+    },
+    {
+        "task_name": "yahoo",
+        "train_file": "CL_Benchmark_dev/TC/yahoo/train.json",
+        "validation_file": "CL_Benchmark_dev/TC/yahoo/test.json",
+        "instruction": "What is the topic of the following paragraph? Choose one from the option.\n",
+        "options": [
+            "Society & Culture",
+            "Science & Mathematics",
+            "Health",
+            "Education & Reference",
+            "Computers & Internet",
+            "Sports",
+            "Business & Finance",
+            "Entertainment & Music",
+            "Family & Relationships",
+            "Politics & Government"
+        ],
+        "text_key": "sentence",
+        "label_key": "label",
+        "max_samples": 10000
+    },
+    {
+        "task_name": "multirc",
+        "train_file": "CL_Benchmark_dev/MultiRC/MultiRC/train.json",
+        "validation_file": "CL_Benchmark_dev/MultiRC/MultiRC/test.json",
+        "instruction": "According to the following passage and question, is the candidate answer true or false? Choose one from the option.\n",
+        "options": [
+            "False",
+            "True"
+        ],
+        "text_key": "sentence",
+        "label_key": "label",
+        "max_samples": 8000
+    },
+    {
+        "task_name": "boolqa",
+        "train_file": "CL_Benchmark_dev/BoolQA/BoolQA/train.json",
+        "validation_file": "CL_Benchmark_dev/BoolQA/BoolQA/test.json",
+        "instruction": "According to the following passage, is the question true or false? Choose one from the option.\n",
+        "options": [
+            "True",
+            "False"
+        ],
+        "text_key": "sentence",
+        "label_key": "label",
+        "max_samples": 12000
+    },
+    {
+        "task_name": "wic",
+        "train_file": "CL_Benchmark_dev/WiC/WiC/train.json",
+        "validation_file": "CL_Benchmark_dev/WiC/WiC/test.json",
+        "instruction": "Given a word and two sentences, whether the word is used with the same sense in both sentence? Choose one from the option.\n",
+        "options": [
+            "True",
+            "False"
+        ],
+        "text_key": "sentence",
+        "label_key": "label",
+        "max_samples": 8000
+    }
+]

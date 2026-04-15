@@ -1,0 +1,14 @@
+# Training / experiment artifacts
+outputs/
+wandb/
+nohups/
+*.out
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.pt
+*.pth
+.DS_Store
+tests/

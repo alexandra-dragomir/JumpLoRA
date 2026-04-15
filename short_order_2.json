@@ -1,0 +1,43 @@
+[
+    {
+        "task_name": "dbpedia",
+        "train_file": "CL_Benchmark_dev/TC/dbpedia/train.json",
+        "validation_file": "CL_Benchmark_dev/TC/dbpedia/test.json",
+        "instruction": "What is the topic of the following paragraph? Choose one from the option.\n",
+        "options": ["Company", "Educational Institution", "Artist", "Athlete", "Office Holder", "Mean of Transportation", "Building", "Natural Place", "Village", "Animal", "Plant", "Album", "Film", "Written Work"],
+        "text_key": "sentence",
+        "label_key": "label",
+        "max_samples": 14000
+    },
+    {
+        "task_name": "amazon",
+        "train_file": "CL_Benchmark_dev/SC/amazon/train.json",
+        "validation_file": "CL_Benchmark_dev/SC/amazon/test.json",
+        "instruction": "What is the sentiment of the following paragraph? Choose one from the option.\n",
+        "options": ["very negative", "negative", "neutral", "positive", "very positive"],
+        "text_key": "sentence",
+        "label_key": "label",
+        "max_samples": 5000
+    },
+    {
+        "task_name": "agnews",
+        "train_file": "CL_Benchmark_dev/TC/agnews/train.json",
+        "validation_file": "CL_Benchmark_dev/TC/agnews/test.json",
+        "instruction": "What is the topic of the following paragraph? Choose one from the option.\n",
+        "options": ["World", "Sports", "Business", "Science or Technology"],
+        "text_key": "sentence",
+        "label_key": "label",
+        "max_samples": 4000
+    },
+    {
+        "task_name": "yahoo",
+        "train_file": "CL_Benchmark_dev/TC/yahoo/train.json",
+        "validation_file": "CL_Benchmark_dev/TC/yahoo/test.json",
+        "instruction": "What is the topic of the following paragraph? Choose one from the option.\n",
+        "options": ["Society & Culture", "Science & Mathematics", "Health", "Education & Reference", "Computers & Internet", "Sports", "Business & Finance", "Entertainment & Music", "Family & Relationships", "Politics & Government"],
+        "text_key": "sentence",
+        "label_key": "label",
+        "max_samples": 10000
+    }
+  ]
+  
